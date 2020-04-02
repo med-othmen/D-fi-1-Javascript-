@@ -1,0 +1,185 @@
+Exercice 1 :
+
+function sumNumber(num1,num2) {
+
+	if ((num1+num2)>100) 
+		return true
+	else
+		return false
+
+}
+
+Exercice 2 :
+
+function isEqual(num1,num2) {
+
+	if (num1==num2) 
+		return true
+	else
+		return false
+
+}
+
+Exercice 3 :
+
+function ifOneIsSum(num1,num2,num3){
+
+	if ((num1*num2)>num3) 
+		return true
+	else
+		return false
+
+}
+
+Exercice 4 :
+
+ function isEmpty(str){
+
+	if (str.length()=0) 
+		return true
+	else
+		return false
+
+}
+
+Exercice 5 :
+
+  function isEqualZero(num) {
+
+	if (num<0) 
+		return true
+	else
+		return false
+
+}
+
+Exercice 6 :
+ function isDevisible(num){
+
+	if((num % 100)=0) 
+		return true
+	else 
+		return false
+
+}
+
+Exercice 7 :
+ function isEqualStr(str1, str2) {
+
+	if( str1.length() == str2.length() ) 
+		return true
+	else 
+		return false
+
+}
+
+Exercice 8 :
+function isDevideBy(num1,  num2) {
+
+	if( ( num1 % num2 ) =0 ) 
+		return true
+	else 
+		return false
+
+}
+
+Exercice 9 :
+function moodToday(mood) {
+
+	if mood=="" 
+		return "Today, I am feeling neuter"
+	else
+	        return "Today, I am feeling"+mood+"."
+
+}
+
+
+Exercice 10 :
+function isEvenOrOdd(num) {
+
+	if ( (num % 2) = 0) 
+		return "even"
+	else 
+		return "odd"
+
+}
+
+Exercice 11 :
+ function match(str1,str2) {
+
+	if (  (str1.toUpperCase()) == (str2.toUpperCase())   ) 
+		return true
+	else 
+		return false
+
+}
+
+
+Exercice 12 :
+  function getCase(str)  {
+
+	if (  str == str.toUpperCase()  ) 
+		return "upper"
+	else if (str == str.toLowerCase() )
+		return "Lower"
+	else return "mixte"
+
+}
+
+Exercice 13 :
+  function swappName(Name, LastName)  {
+
+	return LastName+ " "+Name
+
+}
+
+
+Exercice 14 :
+  function AlphabetSoup(str)  {
+
+	   tabPrenom = Array.from(str)
+	   tabPrenom.sort()
+	
+	return tabPrenom.toString()
+
+}
+
+Exercice 15 :
+      function onlyCase(str) {
+
+	   if (  str == str.toUpperCase()  ) 
+		return true
+	else if (str == str.toLowerCase() )
+		return true
+	else 
+		return false
+
+}
+
+Exercice 16 :
+      function checkEnding(str1,  str2) {
+		let n=str1.length()+str2.length()
+	  return str1.includes(str2,n-str2.length());
+
+}
+Exercice 17 :
+function incrementOrDecrement(num1){
+
+	if ( num1 % 2 = 0)
+		return num1--
+	else return num1++
+
+}
+
+Exercice 18 :
+
+function  toString(num1,num2)  {
+
+	if ( parseInt(num1) < parseInt(num2) )
+		return num1.toString()
+
+	else 
+		return num2.toSring()
+	
+}
+
